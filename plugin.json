@@ -1,0 +1,32 @@
+{
+	"main": "dist/index.html",
+	"preload": "preload.js",
+	"logo": "src/assets/logo.png",
+	"platform": [
+		"win32",
+		"darwin",
+		"linux"
+	],
+	"development": {
+		"main": "http://localhost:5173/"
+	},
+	"pluginSetting": {
+		"single": true,
+		"height": 0
+	},
+	"features": [
+		{
+			"code": "main",
+			"explain": "主页面",
+			"icon": "src/assets/logo.png",
+			"platform": [
+				"win32",
+				"darwin",
+				"linux"
+			],
+			"cmds": [
+				"demo"
+			]
+		}
+	]
+}
